@@ -87,8 +87,10 @@ Depends:
  ${shlibs:Depends},
 Breaks:
  libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~),
+ libfreerdp1
 Replaces:
  libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~),
+ libfreerdp1
 Multi-Arch: same
 Suggests:
  freerdp2-x11,
@@ -108,8 +110,10 @@ Depends:
  ${shlibs:Depends},
 Breaks:
  libfreerdp-client2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~),
+ libfreerdp1
 Replaces:
  libfreerdp-client2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~),
+ libfreerdp1
 Multi-Arch: same
 Description: Free Remote Desktop Protocol library (client library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -146,8 +150,10 @@ Depends:
  ${shlibs:Depends},
 Breaks:
  libwinpr2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~),
+ libfreerdp1
 Replaces:
  libwinpr2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~),
+ libfreerdp1
 Multi-Arch: same
 Suggests:
  freerdp2-x11,
